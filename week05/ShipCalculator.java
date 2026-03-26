@@ -3,25 +3,25 @@ package week05;
 
 public class ShipCalculator {
 
-    // TODO 1: 計算兩個港口之間的運費（整數公里）
+
     // fee(int km) → 回傳 km * 50
     public int fee(int km) {
         return km * 50;
     }
 
-    // TODO 2: 計算運費（浮點數公里，精確距離）
+    //
     // fee(double km) → 回傳 km * 50.0
     public double fee(double km) {
         return km * 50.0;
     }
 
-    // TODO 3: 計算運費（公里 + 貨物重量）
+  
     // fee(int km, double weight) → 回傳 km * 50 + weight * 10
     public double fee(int km, double weight) {
         return km * 50 + weight * 10;
     }
 
-    // TODO 4: 計算航行時間
+  
     // travelTime(int km) → 回傳 km / 30.0（時速 30 公里）
     // travelTime(int km, int speed) → 回傳 km / (double)speed
     public double travelTime(int km) {
