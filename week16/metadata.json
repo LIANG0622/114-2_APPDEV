@@ -1,0 +1,12 @@
+{
+  "name": "台中港海氣象",
+  "description": "台中港離岸風電與海氣象即時觀測、歷史資料分析及風力發電功率計算App",
+  "requestFramePermissions": [
+    "android.permission.ACCESS_FINE_LOCATION",
+    "android.permission.ACCESS_COARSE_LOCATION",
+    "android.permission.CAMERA"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
